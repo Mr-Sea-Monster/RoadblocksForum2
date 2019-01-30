@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class=ie8 ng-app=robloxApp><![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+  <head>
+    <base target="_blank">
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <style>
+        
+        #navigation {
+  top: 0;
+  height: 100%
+}
+        
+        #nav-forum {
+          background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wESFRErfvzO4wAAAMFJREFUOMvtVMsNwjAMfakqZYa3BCd2gEO6SzdhmPTCDuzhMcIllYyVhkCbC+Ld4lh+/jzbAYgkA3ZCRBYAk7U7kgkHQUSctY21z1bUkhzQGX+C3ySIJFNWVuxBQCXf0IPgrHeq+wxGu42Fm7LrVg05oF77ACCub+99U3Ab560KVhKliI/vE8lUmsEkIoutpCRDnQiAi5Ho6wwKJE29JxlEZCZ5+6ZtsdYiXUn2mTdVVKukcchXAPfDzwKAB4DTlsMTDENXcFCc20kAAAAASUVORK5CYII=');
+          background-repeat: no-repeat;
+          padding-left: 23px;
+          background-position: 1px 6px; 
+        }
+        
+        #nav-forum:hover {
+          background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wESFRE08/TDFgAAAOZJREFUOMvtlLsNwkAMhn2ndJ6A69mAHaAgS6TGEmyC5D5L5ArmoKXPBpZoEDRYOlk5SEgCDa7yuHyOH//vhKhpRbYwMgJiRObSPvdTwAEAcpxCL5Z17T6FX6rqnnvnYeb4J/h9gmJqYKqrgBjnqGCRamPyBMi8SjX1vRmoGq2njPUqHxCj9RQhavT+erv1gluOhsttgVailQ31Kv3OvVq1gBi1PZrAtkx/RIjWALCz7fSZTShT+DubFqJ9K3Ky5wNidH1F09Uia9MB8YDMx95WoZXkBmjgGwvPzmCILTyVWyHzuevMA4o1hD5kkgWtAAAAAElFTkSuQmCC');
+          color: #DB6262;
+        }
+        
+    
+    
+        
+        
+        
+        
+        .rbx-left-col {
+          width: 175px !important;
+        }
+        
+        .rbx-left-col .rbx-scrollbar {
+        width: 175px !important;
+        }
+        
+        .icon-nav-menu {
+            background-position: 40px 0 !important;
+          width: 0px !important; 
+        }
+        
+        .nav.rbx-navbar.hidden-md.hidden-lg.col-xs-12 {
+          margin-top: -29px !important;
+        }
+        
+        .rbx-left-col .rbx-scrollbar a, .rbx-left-col .rbx-scrollbar a:hover, .rbx-left-col .rbx-scrollbar a:focus {
+    font-weight: 400;
+  width: 128px;
+}
+    </style>
+    <link
+href="https://images.rbxcdn.com/23421382939a9f4ae8bbe60dbe2a3e7e.ico.gzip"
+      rel="icon">
+    <link rel="manifest"
+      href="https://www.roblox.com/push-notifications/chrome-manifest"
+      crossorigin="use-credentials">
+    <link rel="canonical" href="https://www.roblox.com/home">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://static.rbxcdn.com/css/leanbase___d6732947d9c3f5c3ab6f47589a8edc80_m.css/fetch">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://static.rbxcdn.com/css/page___d64a6a8f73337f8a72885fb5c02f3bcf_m.css/fetch">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://friendsite.roblox.com/people-list/9a61fea5-5aee-4b52-ab66-63ed6cbf27cc/get-css-bundle">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://gamesite.roblox.com/places-list/e2bd83d7-f24f-4268-9da8-f0d5ae47fcc1/get-css-bundle">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://notificationsite.roblox.com/notification-stream/d92ebf47-e691-42e7-acf0-1605b08c2312/get-css-bundle">
+    <link
+onerror="Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this)"
+      rel="stylesheet"
+href="https://chatsite.roblox.com/chat/cf7f88df-4383-449c-9a31-f45447e065d9/get-css-bundle">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      maximum-scale=1, user-scalable=0">
+  </head>
+  <!--<![endif]--> <body data-send-event-percentage="0.01"
+    data-internal-page-name="Home"
+    data-performance-relative-value="0.005" class="rbx-body"
+    id="rbx-body">
+    <div id="roblox-linkify" data-enabled="true"
+data-regex="(https?\:\/\/)?(?:www\.)?([a-z0-9-]{2,}\.)*(((m|de|www|web|api|blog|wiki|corp|polls|bloxcon|developer|devforum|forum)\.roblox\.com|robloxlabs\.com)|(www\.shoproblox\.com)|help\.roblox\.com(?![A-Za-z0-9\/.]*\/attachments\/))(?!\/[A-Za-z0-9-+&amp;@#\/=~_|!:,.;]*%)((\/[A-Za-z0-9-+&amp;@#\/%?=~_|!:,.;]*)|(?=\s|\b))"
+      data-regex-flags="gm"
+      data-as-http-regex="(([^.]help|polls)\.roblox\.com)"></div>
+    <div id="image-retry-data" data-image-retry-max-times="10"
+      data-image-retry-timer="1500" data-ga-logging-percent="10"></div>
+    <div id="http-retry-data" data-http-retry-max-timeout="0"
+      data-http-retry-base-timeout="0" data-http-retry-max-times="1"></div>
+    <div id="TosAgreementInfo" data-terms-check-needed="False"></div>
+    <div id="fb-root"></div>
+    <div id="wrap" class="wrap no-gutter-ads logged-in"
+      data-gutter-ads-enabled="false">
+      <div id="navigation" class="rbx-left-col" data-behavior="left-col">
+        <ul>
+          <li class="text-lead">Roblox</li>
+          <li class="rbx-divider"><br>
+          </li>
+        </ul>
+        <div class="rbx-scrollbar" data-toggle="scrollbar"
+          onselectstart="return false">
+          <ul>
+            <li><a href="https://www.roblox.com/home" id="nav-home"
+                class="text-nav"><span class="icon-nav-home"></span><span
+                  class="font-header-2">Home</span></a></li>
+            <li><a class="text-nav" id="nav-profile"
+                href="https://www.roblox.com/users/profile"><span
+                  class="icon-nav-profile"></span><span
+                  class="font-header-2">Profile</span></a></li>
+            <li id="navigation-messages"> <a
+                href="https://www.roblox.com/my/messages/#%21/inbox"
+                id="nav-message" data-count="0" class="text-nav"> <span
+                  class="icon-nav-message"></span><span
+                  class="font-header-2">Messages</span> <span
+                  class="notification-blue notification hide" title="0"></span>
+              </a> </li>
+            <li id="navigation-friends"> <a href="" id="nav-friends"
+                data-count="0" class="text-nav"> <span
+                  class="icon-nav-friends"></span><span
+                  class="font-header-2">Friends</span> <span
+                  class="notification-blue notification hide" title="0"></span>
+              </a> </li>
+            <li> <a href="https://www.roblox.com/my/avatar"
+                id="nav-character" class="text-nav"> <span
+                  class="icon-nav-charactercustomizer"></span><span
+                  class="font-header-2">Avatar</span> </a> </li>
+            <li> <a
+                href="https://www.roblox.com/users/68773533/inventory"
+                id="nav-inventory" class="text-nav"> <span
+                  class="icon-nav-inventory"></span><span
+                  class="font-header-2">Inventory</span> </a> </li>
+            <li> <a
+                href="https://www.roblox.com/my/money.aspx#/#TradeItems_tab"
+                id="nav-trade" class="text-nav"> <span
+                  class="icon-nav-trade"></span><span
+                  class="font-header-2">Trade</span> <span
+                  class="notification-blue notification hide"></span> </a>
+            </li>
+            <li> <a href="https://www.roblox.com/my/groups.aspx"
+                id="nav-group" class="text-nav"> <span
+                  class="icon-nav-group"></span><span
+                  class="font-header-2">Groups</span><span></span></a> </li>
+            <li><a class="forum-button" id="nav-forum"
+                href="https://roadblocks.smfnew2.com/index.php"><span></span><span
+                  class="font-header-2">Forum</span> <span
+                  class="font-header-2"></span></a> <a
+                href="https://www.roblox.com/my/groups.aspx"
+                id="nav-group" class="text-nav"> </a> </li>
+            <li><a href="https://www.roblox.com/feeds/" id="nav-my-feed"
+                class="text-nav"><span class="icon-nav-my-feed"></span><span
+                  class="font-header-2">My Feed</span></a></li>
+            <li> <a href="https://blog.roblox.com" id="nav-blog"
+                class="text-nav"> <span class="icon-nav-blog"></span><span
+                  class="font-header-2">Blog</span> </a> </li>
+            <li> <a id="nav-shop" class="text-nav
+                roblox-shop-interstitial"> <span class="icon-nav-shop"></span><span
+                  class="font-header-2">Shop</span> </a> </li>
+            <li class="rbx-upgrade-now"><span class="btn-growth-md
+                btn-secondary-md font-header-2"><a
+                  href="https://twitter.com/ForumRoadblocks">Twitter</a>
+              </span></li>
+            <li class="font-bold small text-nav font-header-2"><br>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="i18nForAmazonShopSwitch"
+        data-is-i18n-enabled-for-shop-amazon-dialog="true"
+data-amazon-store-url="https://www.amazon.com/roblox?&amp;_encoding=UTF8&amp;tag=r05d13-20&amp;linkCode=ur2&amp;linkId=4ba2e1ad82f781c8e8cc98329b1066d0&amp;camp=1789&amp;creative=9325"
+        style="display:none"></div>
+    </div>
+    <div ng-modules="baseTemplateApp"> </div>
+    <div ng-modules="pageTemplateApp"> </div>
+  </body>
+</html>
